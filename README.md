@@ -1,9 +1,9 @@
-# Test Assignment
+# Test Assignment - D. Sokolov
 
 ## Commands for Launching Tests:
 
 ### Test Case #1 - Verify that the pricing changes when employee count is adjusted
-**Command:**
+**Launch command:**
 ```bash
 npx wdio run ./wdio.conf.js --spec pricingChangeTest.e2e.js
 ```
