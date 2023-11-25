@@ -6,6 +6,7 @@
 ```bash
 npx wdio run ./wdio.conf.js
 ```
+#### This will launch all 5 tests on chrome and firefox at the same time
 
 ### Test Case #1 - Verify that the pricing changes when employee count is adjusted
 **Launch command:**
