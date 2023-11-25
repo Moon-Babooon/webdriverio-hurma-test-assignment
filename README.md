@@ -1,4 +1,4 @@
-# Test Assignment - D. Sokolov
+# Test Assignment - WebDriverIO
 
 ## Commands for Launching Tests:
 
