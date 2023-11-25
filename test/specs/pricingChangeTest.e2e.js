@@ -8,10 +8,8 @@ describe('Verify that the pricing changes when employee count is adjusted', () =
         TariffsPage.open();
     });
 
-    it('Prerequisite - 3 months should be active by default', async () => {
+    it('Prerequisites - 3 months period and USD currency should be selected by default', async () => {
         await expect(TariffsPage.threeMonths).toHaveElementClass('active');
-    });
-    it('Prerequisite - USD should be selected by default', async () => {
         await expect(TariffsPage.USD).toBeSelected();
     });
 
