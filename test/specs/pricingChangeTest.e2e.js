@@ -29,7 +29,7 @@ describe('Verify that the pricing changes when employee count is adjusted', () =
     it('Primary price should change to $310.5/mo*', async () => {
         const expectedPrice = '$310.5/mo*';
         const actualPrice = (await TariffsPage.primaryPrice.getText()).toString();
-        assert.equal(expectedPrice, actualPrice, 'Prices does not match');
+        assert.equal(expectedPrice, actualPrice, 'Prices do not match');
     });
 
     it('Option > 300 should be selected', async () => {
