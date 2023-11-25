@@ -1,0 +1,3 @@
+{
+  "url": "https://hurma.work/en/tariffs"
+}

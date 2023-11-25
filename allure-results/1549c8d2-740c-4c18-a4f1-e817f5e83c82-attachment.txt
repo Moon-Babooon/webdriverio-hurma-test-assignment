@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".period-and-currency .currency-select>select\"}\n  (Session info: chrome=119.0.6045.160)",
+  "stacktrace": "\tGetHandleVerifier [0x00007FF7F96C82B2+55298]\n\t(No symbol) [0x00007FF7F9635E02]\n\t(No symbol) [0x00007FF7F94F05AB]\n\t(No symbol) [0x00007FF7F953175C]\n\t(No symbol) [0x00007FF7F95318DC]\n\t(No symbol) [0x00007FF7F956CBC7]\n\t(No symbol) [0x00007FF7F95520EF]\n\t(No symbol) [0x00007FF7F956AAA4]\n\t(No symbol) [0x00007FF7F9551E83]\n\t(No symbol) [0x00007FF7F952670A]\n\t(No symbol) [0x00007FF7F9527964]\n\tGetHandleVerifier [0x00007FF7F9A40AAB+3694587]\n\tGetHandleVerifier [0x00007FF7F9A9728E+4048862]\n\tGetHandleVerifier [0x00007FF7F9A8F173+4015811]\n\tGetHandleVerifier [0x00007FF7F97647D6+695590]\n\t(No symbol) [0x00007FF7F9640CE8]\n\t(No symbol) [0x00007FF7F963CF34]\n\t(No symbol) [0x00007FF7F963D062]\n\t(No symbol) [0x00007FF7F962D3A3]\n\tBaseThreadInitThunk [0x00007FFACDA87344+20]\n\tRtlUserThreadStart [0x00007FFACFA026B1+33]\n"
+}
