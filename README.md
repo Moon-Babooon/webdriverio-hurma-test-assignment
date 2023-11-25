@@ -2,6 +2,11 @@
 
 ## Commands for Launching Tests:
 
+### Launching all tests
+```bash
+npx wdio run ./wdio.conf.js
+```
+
 ### Test Case #1 - Verify that the pricing changes when employee count is adjusted
 **Launch command:**
 ```bash
