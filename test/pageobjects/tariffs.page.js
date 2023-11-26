@@ -53,6 +53,15 @@ class TariffsPage extends Page {
     get employeeNumberSelect () {
         return $('.primary .custom-select>select');
     }
+    get option31to50 () {
+        return $('.primary .custom-select>select>option:nth-child(2)');
+    }
+    get option150to200 () {
+        return $('.primary .custom-select>select>option:nth-child(5)');
+    }
+    get optionMoreThan300 () {
+        return $('.primary .custom-select>select>option:nth-child(8)');
+    }
     get moreButton () {
         return $('.expand-button>button');
     }

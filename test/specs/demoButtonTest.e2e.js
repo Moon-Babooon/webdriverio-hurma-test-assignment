@@ -10,7 +10,7 @@ describe("The 'More about tariffs' section verification", () => {
 
     it("The 'More about tariffs' section should be present", async () => {
         await TariffsPage.tariffsTable.scrollIntoView();
-        await expect(TariffsPage.tariffsTable).toBePresent();
+        await expect(TariffsPage.tariffsTable).toBeDisplayed();
     });
 
     it("'More' button should expand the tariffs table", async () => {
