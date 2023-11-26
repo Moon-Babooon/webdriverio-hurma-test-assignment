@@ -1,6 +1,7 @@
 # Test Assignment - WebDriverIO
 
 ## Commands for Launching Tests:
+#### Inside the project directory
 
 ### Launching all tests
 ```bash
