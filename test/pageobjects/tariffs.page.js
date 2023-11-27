@@ -93,6 +93,18 @@ class TariffsPage extends Page {
     selectUAH () {
         return this.currencySelect.selectByAttribute('value', 'uah');
     }
+
+    select31to50 () {
+        return this.employeeNumberSelect.selectByVisibleText('31– 50');
+    }
+
+    select150to200 () {
+        return this.employeeNumberSelect.selectByVisibleText('150 – 200');
+    }
+
+    selectMoreThan300 () {
+        return this.employeeNumberSelect.selectByVisibleText('> 300');
+    }
 }
 
 export default new TariffsPage();

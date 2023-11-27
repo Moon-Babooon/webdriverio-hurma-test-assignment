@@ -18,7 +18,7 @@ describe('Verify that the pricing changes when employee count is adjusted', () =
     })
 
     it('Option 31 - 50 should be selected', async () => {
-        await TariffsPage.employeeNumberSelect.selectByVisibleText('31– 50');
+        await TariffsPage.select31to50();
         await expect(TariffsPage.option31to50).toBeSelected();
     });
 
@@ -29,7 +29,7 @@ describe('Verify that the pricing changes when employee count is adjusted', () =
     });
 
     it('Option 150 - 200 should be selected', async () => {
-        await TariffsPage.employeeNumberSelect.selectByVisibleText('150 – 200');
+        await TariffsPage.select150to200();
         await expect(TariffsPage.option150to200).toBeSelected();
     });
 
@@ -40,7 +40,7 @@ describe('Verify that the pricing changes when employee count is adjusted', () =
     });
 
     it('Option > 300 should be selected', async () => {
-        await TariffsPage.employeeNumberSelect.selectByVisibleText('> 300');
+        await TariffsPage.selectMoreThan300();
         await expect(TariffsPage.optionMoreThan300).toBeSelected();
     });
 
