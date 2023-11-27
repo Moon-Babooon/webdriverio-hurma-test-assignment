@@ -81,6 +81,18 @@ class TariffsPage extends Page {
     open () {
         return super.open('tariffs');
     }
+
+    selectEUR () {
+        return this.currencySelect.selectByAttribute('value', 'eur');
+    }
+
+    selectUSD () {
+        return this.currencySelect.selectByAttribute('value', 'usd');
+    }
+
+    selectUAH () {
+        return this.currencySelect.selectByAttribute('value', 'uah');
+    }
 }
 
 export default new TariffsPage();

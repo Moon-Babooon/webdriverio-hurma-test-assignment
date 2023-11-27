@@ -13,21 +13,21 @@ describe('Verify that currency drop-down menu works correctly', () => {
     });
 
     it('€ EUR option should be selected successfully', async () => {
-        await TariffsPage.currencySelect.selectByAttribute('value', 'eur')
+        await TariffsPage.selectEUR();
         const currency = (await TariffsPage.primaryCurrency.getText()).toString();
         await expect(TariffsPage.EUR).toBeSelected();
         assert.equal(currency, '€', 'Currency is displayed incorrectly');
     });
 
     it('$ USD option should be selected successfully', async () => {
-        await TariffsPage.currencySelect.selectByAttribute('value', 'usd')
+        await TariffsPage.selectUSD();
         const currency = (await TariffsPage.primaryCurrency.getText()).toString();
         await expect(TariffsPage.USD).toBeSelected();
         assert.equal(currency, '$', 'Currency is displayed incorrectly');
     });
 
     it('₴ UAH option should be selected successfully', async () => {
-        await TariffsPage.currencySelect.selectByAttribute('value', 'uah')
+        await TariffsPage.selectUAH();
         const currency = (await TariffsPage.primaryCurrency.getText()).toString();
         await expect(TariffsPage.UAH).toBeSelected();
         assert.equal(currency, '₴', 'Currency is displayed incorrectly');
