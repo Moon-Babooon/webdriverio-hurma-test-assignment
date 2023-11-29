@@ -3,7 +3,7 @@
 ## Commands for Launching Tests:
 #### Inside the project directory
 
-### Launching all tests
+### Launching all tests (Locally)
 ```bash
 npx wdio
 ```
@@ -37,4 +37,14 @@ npx wdio --spec demoButtonTest.e2e.js
 **Launch command:**
 ```bash
 npx wdio --spec scrollLoadLineTest.e2e.js
+```
+
+### Launching tests in Docker
+#### To Build an image:
+```bash
+docker build -t wdiotest .
+```
+#### To run test in container:
+```bash
+docker run --rm -it wdiotest
 ```
